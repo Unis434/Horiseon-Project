@@ -1,0 +1,187 @@
+/* CSS DIRECTORY
+	1. =GLOBAL
+	2. =HEADER
+    3. =NAVIGATION
+    4. =HERO
+	5. =CONTENT SECTION
+    6. =BENEFIT SECTION
+	7. =FOOTER
+*/
+
+
+/* ===1.GLOBAL=== */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* ===2.HEADER=== */
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header span {
+    color: #d9dcd6;
+}
+
+
+/* ===3.NAVIGATION=== */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* ===4.HERO=== */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ===5.CONTENT SECTION=== */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.image-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.image-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*
+I decided to group the style of the 3 articles from the 'content section' because they all had the same style applied to them. 
+In order to do this, I added the class="content-article" to each of the 3 articles in the 'content section'. See right below.
+*/
+
+.content-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+}
+
+/*
+I decided to group the style of the 3 img from the 'content section' because they all had the same style applied to them. 
+In order to do this, I used the class="content" of the 'content section' paired with the img tag. See right below.
+*/
+
+
+.content img {
+    max-height: 200px;
+}
+
+/*
+I decided to group the style of the three h2 from the 'content section' because they all had the same style applied to them. 
+In order to do this, I used the class="content-article" applied to each article paired with the h2 tag. See right below.
+*/
+
+.content-article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* ===6.BENEFIT SECTION=== */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*
+I decided to group the style of the 3 articles from the 'benefits section' because they all had the same style applied to them. 
+In order to do this, I added the class="benefit-article" to each of the 3 articles in the 'benefits section' See right below.
+*/
+
+.benefit-article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*
+I decided to group the style of the three h3 from the 'benefits section' because they all had the same style applied to them. 
+In order to do this, I used the class="benefit-article" applied to each article paired with the h3 tag. See right below.
+*/
+
+.benefit-article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+I decided to group the style of the 3 img from the 'benefits section' because they all had the same style applied to them. 
+In order to do this, I used the class="benefits" of the 'benefits section' paired with the img tag. See right below.
+*/
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* ===7.FOOTER=== */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
